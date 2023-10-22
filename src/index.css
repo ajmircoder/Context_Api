@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-div-white{
+    box-shadow: 0 0 10px white;
+}
+.card-div-black{
+    box-shadow: 0 0 10px black;
+}
+.shoe-div-white{
+    box-shadow: 0 0 10px white;
+}
+.shoe-div-black{
+    box-shadow: 0 0 10px black;
+}
+
+.theam-btn{
+    display: block;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.theam-btn:hover{
+    box-shadow: 0 0 3px 0 rgba(248, 247, 247, 0.953), 0 0 4px 0 rgba(252, 252, 252, 0.958);
+}
+.theam-btn:active{
+    opacity: 0.5;
+}
+.size-btn:hover{
+    opacity: 0.6;
+}
+.size-btn:focus{
+    background-color: blue;
+}
